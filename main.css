@@ -1,0 +1,57 @@
+/*GENERAL SETTINGS*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: yellow;
+}
+
+img {
+	width: 150px;
+}
+.container {
+	padding-left: 1em;
+	padding-right: 1em;
+	background: blue;
+}
+
+.head {
+	background: pink;
+	
+}
+@media all(min-width: 700px;) {
+
+}
+.col {
+	float: left;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.primary {
+	width: 60%;
+	background-color: green;
+}
+.secondary {
+	width: 40%;
+	background-color: purple;
+}
+
+.chakra-primary {
+	float: left;
+	width: 200px;
+}
+.chakra-secondary {
+	float: right;
+	width: 100px;
+}
+
+
+	.clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+}
