@@ -9,7 +9,7 @@ body {
 }
 
 img {
-	width: 150px;
+	width: 60%;
 }
 .container {
 	padding-left: 1em;
@@ -21,9 +21,9 @@ img {
 	background: pink;
 	
 }
-@media all(min-width: 700px;) {
+@media (min-width: 700px) {
 
-}
+
 .col {
 	float: left;
 	padding-left: 1em;
@@ -47,11 +47,10 @@ img {
 	width: 100px;
 }
 
-
+}
 	.clearfix::after {
 		content: "";
 		display: table;
 		clear: both;
 	}
 
-}
